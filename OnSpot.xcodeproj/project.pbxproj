@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		080E100AF2A6F5F0D94035C9 /* Pods_OnSpotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82EC1E539391D934A16DB2E4 /* Pods_OnSpotTests.framework */; };
 		3F5A8F622139787800669AFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A8F612139787800669AFA /* AppDelegate.swift */; };
 		3F5A8F642139787800669AFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A8F632139787800669AFA /* ViewController.swift */; };
 		3F5A8F672139787800669AFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5A8F652139787800669AFA /* Main.storyboard */; };
 		3F5A8F692139787900669AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F5A8F682139787900669AFA /* Assets.xcassets */; };
 		3F5A8F6C2139787900669AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5A8F6A2139787900669AFA /* LaunchScreen.storyboard */; };
 		3F5A8F772139787900669AFA /* OnSpotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A8F762139787900669AFA /* OnSpotTests.swift */; };
+		5F70447B0758F529934AFB59 /* Pods_OnSpot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35E241CF060F832EB1956D6 /* Pods_OnSpot.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00BA0683C9A298DA19D50B5C /* Pods-OnSpotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnSpotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnSpotTests/Pods-OnSpotTests.release.xcconfig"; sourceTree = "<group>"; };
 		3F5A8F5E2139787800669AFA /* OnSpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnSpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F5A8F612139787800669AFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F5A8F632139787800669AFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +39,11 @@
 		3F5A8F722139787900669AFA /* OnSpotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnSpotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F5A8F762139787900669AFA /* OnSpotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnSpotTests.swift; sourceTree = "<group>"; };
 		3F5A8F782139787900669AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		726E42EFDA3EDF1DDC19FED7 /* Pods-OnSpot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnSpot.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnSpot/Pods-OnSpot.release.xcconfig"; sourceTree = "<group>"; };
+		82EC1E539391D934A16DB2E4 /* Pods_OnSpotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnSpotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71303ECCC2E89B8CD4ABAE6 /* Pods-OnSpotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnSpotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnSpotTests/Pods-OnSpotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9427C21D6A0EFFFB1F9FB57 /* Pods-OnSpot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnSpot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnSpot/Pods-OnSpot.debug.xcconfig"; sourceTree = "<group>"; };
+		D35E241CF060F832EB1956D6 /* Pods_OnSpot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnSpot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F70447B0758F529934AFB59 /* Pods_OnSpot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				080E100AF2A6F5F0D94035C9 /* Pods_OnSpotTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E2731070D81F4682C30493B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35E241CF060F832EB1956D6 /* Pods_OnSpot.framework */,
+				82EC1E539391D934A16DB2E4 /* Pods_OnSpotTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3F5A8F552139787700669AFA = {
 			isa = PBXGroup;
 			children = (
 				3F5A8F602139787800669AFA /* OnSpot */,
 				3F5A8F752139787900669AFA /* OnSpotTests */,
 				3F5A8F5F2139787800669AFA /* Products */,
+				78003E7F2DDE48A6274DA88C /* Pods */,
+				2E2731070D81F4682C30493B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +117,17 @@
 			path = OnSpotTests;
 			sourceTree = "<group>";
 		};
+		78003E7F2DDE48A6274DA88C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9427C21D6A0EFFFB1F9FB57 /* Pods-OnSpot.debug.xcconfig */,
+				726E42EFDA3EDF1DDC19FED7 /* Pods-OnSpot.release.xcconfig */,
+				A71303ECCC2E89B8CD4ABAE6 /* Pods-OnSpotTests.debug.xcconfig */,
+				00BA0683C9A298DA19D50B5C /* Pods-OnSpotTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,6 +135,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F5A8F7B2139787900669AFA /* Build configuration list for PBXNativeTarget "OnSpot" */;
 			buildPhases = (
+				106803CC49281B010DA3C008 /* [CP] Check Pods Manifest.lock */,
 				3F5A8F5A2139787800669AFA /* Sources */,
 				3F5A8F5B2139787800669AFA /* Frameworks */,
 				3F5A8F5C2139787800669AFA /* Resources */,
@@ -120,6 +153,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F5A8F7E2139787900669AFA /* Build configuration list for PBXNativeTarget "OnSpotTests" */;
 			buildPhases = (
+				C73330C0C73749AB696454B9 /* [CP] Check Pods Manifest.lock */,
 				3F5A8F6E2139787900669AFA /* Sources */,
 				3F5A8F6F2139787900669AFA /* Frameworks */,
 				3F5A8F702139787900669AFA /* Resources */,
@@ -191,6 +225,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		106803CC49281B010DA3C008 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnSpot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C73330C0C73749AB696454B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnSpotTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3F5A8F5A2139787800669AFA /* Sources */ = {
@@ -356,15 +429,13 @@
 		};
 		3F5A8F7C2139787900669AFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9427C21D6A0EFFFB1F9FB57 /* Pods-OnSpot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FDUR7X8MST;
 				INFOPLIST_FILE = OnSpot/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.t-systems.mobileapps.OnSpot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -374,15 +445,13 @@
 		};
 		3F5A8F7D2139787900669AFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 726E42EFDA3EDF1DDC19FED7 /* Pods-OnSpot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FDUR7X8MST;
 				INFOPLIST_FILE = OnSpot/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.t-systems.mobileapps.OnSpot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -392,17 +461,14 @@
 		};
 		3F5A8F7F2139787900669AFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A71303ECCC2E89B8CD4ABAE6 /* Pods-OnSpotTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FDUR7X8MST;
 				INFOPLIST_FILE = OnSpotTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.t-systems.mobileapps.OnSpotTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -413,17 +479,14 @@
 		};
 		3F5A8F802139787900669AFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00BA0683C9A298DA19D50B5C /* Pods-OnSpotTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FDUR7X8MST;
 				INFOPLIST_FILE = OnSpotTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.t-systems.mobileapps.OnSpotTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
